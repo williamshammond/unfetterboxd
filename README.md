@@ -19,6 +19,14 @@ zip -r unfetterboxd-0.1.0.zip manifest.json content.js content.css icons
 
 Upload the ZIP in the Chrome Web Store Developer Dashboard.
 
-## Privacy
+## Privacy Policy
 
-This extension runs only on Letterboxd list pages. It reads rating information already present in the current page DOM and injects visible rating text locally. It does not collect, transmit, or store user data.
+**List Stars for Letterboxd** does not collect, sell, share, transmit, or store personal data externally.
+
+The extension runs only on Letterboxd list pages. It reads star rating information already present in the current page DOM and displays it locally on the page.
+
+The extension uses Chrome local storage only to remember the user’s show/hide preference.
+
+No analytics, tracking, remote code, backend server, or external API is used.
+
+This extension is independent and is not affiliated with Letterboxd.
