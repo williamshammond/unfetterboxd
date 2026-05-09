@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Visible Ratings for Letterboxd",
+  "version": "0.1.0",
+  "description": "Shows existing Letterboxd ratings directly on list pages.",
+  "content_scripts": [
+    {
+      "matches": ["https://letterboxd.com/*/list/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

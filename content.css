@@ -1,0 +1,27 @@
+.lbvr-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  margin-left: 6px;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  color: #00e054;
+  vertical-align: middle;
+}
+
+.lbvr-debug-outline {
+  outline: 1px solid #00e054;
+}
+
+.lbvr-rating-badge {
+  display: block;
+  width: 100%;
+  margin: 5px 0 2px;
+  color: #00e054;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  white-space: nowrap;
+}
